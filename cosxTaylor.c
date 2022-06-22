@@ -7,19 +7,19 @@
 
 int main()
 {
-    float x, formula=1, sum = 0;
-    int factor=1, n = 0, i;
+    float x, formula = 1, sum = 0;
+    int factor = 1, n = 0, i;
     
     printf("\nEnter an angle for cosx > ");
     scanf("%f", &x);
     
-    x = x*PI/180;
+    x = x * PI / 180;
     
     while(formula > 0.00001)
     {
-        for(i=1;i<2 * n;i++)
+        for(i = 1;i < 2 * n;i++)
         {
-            factor=factor*i;
+            factor = factor * i;
         }
     
         formula = (pow(-1,n)*pow(x,2*n))/(factor);
