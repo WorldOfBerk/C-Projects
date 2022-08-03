@@ -1,5 +1,5 @@
 /*************************************************************
- * A program that can merge the two arrays.
+ * A program that can merge two arrays.
  * **********************************************************/
 
 #include <stdio.h>
